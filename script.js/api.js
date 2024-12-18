@@ -2,11 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 // Replace with your actual BigCommerce store hash and API URL
-const storeHash = 'z04yvh8lv7'; // Replace with your store hash
+const storeHash = '{store_hash}'; // Replace with your store hash
 const apiEndpoint = `https://api.bigcommerce.com/stores/${storeHash}/v3/customers/subscribers`;
 // BigCommerce API headers
 const apiHeaders = {
-  'X-Auth-Token': 'etdjw73jdgq3rfzvk40owokzb4kvxgl', // Replace with your BigCommerce API token
+  'X-Auth-Token': 'your_auth_token', // Replace with your BigCommerce API token
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 };
