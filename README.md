@@ -25,7 +25,7 @@ cd Subscriber-Importer
 ```
 npm install
 ```
-3. Add your BigCommerce API token and store hash to postman.js.
+3. Add your BigCommerce API token and store hash to api.js.
 4. Place your CSV file in the project directory as data.csv.
 
 Usage
