@@ -30,7 +30,7 @@ npm install
 
 Usage
 
-1.Parse the CSV file into JSON:
+1. Parse the CSV file into JSON:
 ```
 node script.js
 ```
