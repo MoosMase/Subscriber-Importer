@@ -1,5 +1,7 @@
 A Node.js application for importing subscriber data from a CSV file and making sequential POST requests to the BigCommerce API.
 
+This project is a simple example of how to utilize node to accomplish tasks that may not be covered by the BigC org in an official capacity.
+
 Features 
 
 -Parses a CSV file containing subscriber information. This will work with the default export columns from BigCommerce as well as "last_name, source, channel_id"
